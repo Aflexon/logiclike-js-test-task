@@ -55,6 +55,7 @@ export default {
   name: 'app',
   data () {
     return {
+      mode: 'add',
       name: '',
       phone: '',
       contacts: []
